@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LiquidadorZapatosZXY</string>
+    <string name="Sexo">Seleccione el sexo del cliente</string>
+    <string name="tipo">Seleccione el tipo de zapato</string>
+    <string name="marca">Seleccione la marca de zapato</string>
+    <string name="cantidad">Indique la cantidad de zapatos</string>
+    <string name="Liquidar">Liquidar</string>
+</resources>
