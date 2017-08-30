@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/cantidad"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <TextView
             android:id="@+id/lblSexo"
@@ -66,7 +66,16 @@
             android:id="@+id/btnLiquidar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="calcular"
             android:text="@string/Liquidar" />
+
+        <TextView
+            android:id="@+id/lblResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

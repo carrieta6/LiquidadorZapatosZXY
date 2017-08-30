@@ -1,8 +1,29 @@
 <resources>
-    <string name="app_name">LiquidadorZapatosZXY</string>
+    <string name="app_name">Liquidador Zapatos ZXY</string>
     <string name="Sexo">Seleccione el sexo del cliente</string>
     <string name="tipo">Seleccione el tipo de zapato</string>
     <string name="marca">Seleccione la marca de zapato</string>
     <string name="cantidad">Indique la cantidad de zapatos</string>
     <string name="Liquidar">Liquidar</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clasico</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="mensaje_error_uno">Digite la Cantidad</string>
+    <string-array name="spsexo">
+        <item>@string/hombre</item>
+        <item>@string/mujer</item>
+    </string-array>
+    <string-array name="sptipo">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+    <string-array name="spmarca">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </string-array>
 </resources>
