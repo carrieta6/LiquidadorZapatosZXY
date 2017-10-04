@@ -76,56 +76,6 @@ public class principal extends AppCompatActivity {
             cant = Integer.parseInt(cantidad.getText().toString());
 
 
-            if(sex1==0 && tip1==0 && marc1==0){
-                res = 120000*cant;
-            }else{
-                if(sex1==0 && tip1==0 && marc1==1){
-                    res = 140000*cant;
-                }else{
-                    if(sex1==0 && tip1==0 && marc1==2){
-                        res = 130000*cant;
-                    }else{
-                        if(sex1==0 && tip1==1 && marc1==0){
-                            res = 50000*cant;
-                        }else{
-                            if(sex1==0 && tip1==1 && marc1==1){
-                              res = 80000*cant;
-                            }else{
-                                if(sex1==0 && tip1==1 && marc1==2){
-                                    res = 100000*cant;
-                                }else{
-                                    if(sex1==1 && tip1==0 && marc1==0){
-                                        res = 100000*cant;
-                                    }else{
-                                        if(sex1==1 && tip1==0 && marc1==1){
-                                            res = 130000*cant;
-                                        }else{
-                                            if(sex1==1 && tip1==0 && marc1==2){
-                                                res = 110000*cant;
-                                            }else{
-                                                if(sex1==1 && tip1==1 && marc1==0){
-                                                    res = 60000*cant;
-                                                }else{
-                                                    if(sex1==1 && tip1==1 && marc1==1){
-                                                        res = 70000*cant;
-                                                    }else{
-                                                        if(sex1==1 && tip1==1 && marc1==2){
-                                                            res = 120000*cant;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-
-                        }
-
-                    }
-                }
-
-            }
 
             resultado.setText(String.valueOf(res));
         }
